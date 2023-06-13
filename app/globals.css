@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap");
+body {
+}
+
+.font {
+  /* font-family: "Poppins", sans-serif; */
+}
+.font1 {
+  font-family: "Courier Prime", monospace;
+}
+.shadow {
+  box-shadow: 17px 19px 0px 1px rgba(24, 22, 34, 0.75);
+  -webkit-box-shadow: 17px 19px 0px 1px rgba(24, 22, 34, 0.75);
+  -moz-box-shadow: 17px 19px 0px 1px rgba(24, 22, 34, 0.75);
+}
+.animate__animated.animate__fadeIn {
+  --animate-duration: 2s;
+}
